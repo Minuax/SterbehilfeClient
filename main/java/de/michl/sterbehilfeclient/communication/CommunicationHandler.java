@@ -16,7 +16,7 @@ public class CommunicationHandler {
 
     public CommunicationHandler() {
         try {
-            this.socket = new Socket("10.1.40.36", 11831);
+            this.socket = new Socket("fjg31.ddns.net", 11831);
         } catch (IOException e) {
             e.printStackTrace();
         }
